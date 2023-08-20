@@ -36,7 +36,7 @@ npm i
 
 ## Set up Your Repository
 
-When you clone this project, this will still point to my repository.
+When you clone this project, this will still point to our repository.
 
 The next steps are to change it to save to your repository.
 
@@ -69,6 +69,14 @@ If you have not done so, create a new repository on your personal github.com acc
 Add new origin to point this code base to your personal repository so that all new files can be pushed to it.
 
 The url address should be the one for your new created repository.
+
+Initialize your current folder as a git project.
+
+```
+git init
+```
+
+Add your repository as the new origin.
 
 ```
 git remote add origin https://github.com/<your-repository>/<your-project-name>.git

@@ -12,12 +12,26 @@ Project includes following features:
 
 ## First Steps
 
-Clone the project and make it your own.
+Clone the project and make it your own. Open Visual Studio Code and open the folder that will be the parent of your project.
 
 - **[my-project-name]** should be the name of your project
 
 ```
-https://github.com/jorgecarmona/npm-project-template.git my-project-name
+git clone https://github.com/jorgecarmona/npm-project-template.git my-project-name
+```
+
+Change directory to your new directory as you named it above.
+
+For example:
+
+```
+cd my-project-name
+```
+
+Install Dependencies
+
+```
+npm i
 ```
 
 ## Set up Your Repository

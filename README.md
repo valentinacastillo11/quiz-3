@@ -68,18 +68,17 @@ If you have not done so, create a new repository on your personal github.com acc
 
 Add new origin to point this code base to your personal repository so that all new files can be pushed to it.
 
-The url address should be the one for your new created repository.
-
 Initialize your current folder as a git project.
 
 ```
 git init
 ```
 
+The url address should be the one for your new created repository.
 Add your repository as the new origin.
 
 ```
-git remote add origin https://github.com/<your-repository>/<your-project-name>.git
+git remote set-url origin <your-remote-github-repository>
 ```
 
 ### 3. Create a Develop Branch
@@ -117,3 +116,13 @@ git push -u origin develop
 ```
 
 Note: After first push, you only need to do `git push` since your local repo is synchronized with your github.com repo.
+
+## Next Steps
+
+Your project is now ready for you to create AWESOME things!
+
+You can now create a new branch and start working!
+
+```
+git checkout -b name-of-branch
+```

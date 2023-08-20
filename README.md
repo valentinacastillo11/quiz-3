@@ -81,6 +81,21 @@ Add your repository as the new origin.
 git remote set-url origin <your-remote-github-repository>
 ```
 
+Verify that it now points to your own repository.
+
+```
+git remote -v
+```
+
+It should now point to your own repository
+
+Example:
+
+```
+origin  https://github.com/<your-github-account>/<your-repository-name>.git (fetch)
+origin  https://github.com/<your-github-account>/<your-repository-name>.git (push)
+```
+
 ### 3. Create a Develop Branch
 
 Github by default creates a branch called Main. In our learning we use develop instead.

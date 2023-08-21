@@ -1,9 +1,14 @@
 {
+  "semi": true,
+  "printWidth": 80,
   "tabWidth": 2,
   "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
+  "singleQuote": false,
   "trailingComma": "none",
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "css",
+  "endOfLine": "auto",
   "overrides": [
     {
       "files": "*.css",

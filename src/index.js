@@ -191,8 +191,7 @@ console.log("[Question #25]: ",typeof stringVar === "string" ); // should print 
 
 
 // 26. Compare the values of 'numberVar' and the string '5' using the loose equality operator.
- 
-console.log("[Question #26]: ", numberVar == "5")  // should print true
+ console.log("[Question #26]: ", numberVar == "5")  // should print true
 
 
 
@@ -201,107 +200,77 @@ const colors = [];
 colors.push("red", "blue");
 console.log("[Question #27]: ", colors); // should print array with red and blue
 
-
-
-
 // 28. Remove the last element from 'fruits' array.
 fruits.pop();
 console.log("[Question #28]: ", fruits); // should print [ 'apple', 'banana', 'cherry' ]
 
-
-
 // 29. Check if 'numberVar' is greater than or equal to 5.
-const numberVarIsGreaterOrEqual = numberVar >= 5;
-console.log("[Question #29]: ", numberVarIsGreaterOrEqual); // should print true
-
+console.log("[Question #29]: ", numberVar >= 5); // should print true
 
 
 // 30. Determine if the length of 'stringVar' is strictly equal to 5.
-const isStringLength5 = stringVar.length === 5;
-console.log("[Question #30]: ", isStringLength5); // should print true
-
+console.log("[Question #30]: ", stringVar.length === 5); // should print true
 
 
 // 31. Use the modulo operator to determine if 10 is even.
-const isEven = 10 % 2 === 0;
-console.log("[Question #31]: ", isEven); // should print true
+const isEven = 10 
+console.log("[Question #31]: ", isEven % 2 === 0); // should print true
 
 
 
 // 32. Create a variable 'result' and assign it the result of 10 raised to the power of 3.
-const result = Math.pow(10, 3);
+let result = 10 ** 3;
 console.log("[Question #32]: ", result); // should print 1000
 
 
 
-// 33. Compare the value of 'stringVar' to the string 'hello' in a case insensitive manner.
-const isCaseInsensitive = stringVar.toLowerCase() === "hello";
-console.log("[Question #33]: ", isCaseInsensitive); // should print true
+// 33. Compare the value of 'stringVar' to the string 'hello' in a case insensitive manner.;
+console.log("[Question #33]: ",   stringVar.toLowerCase() === "hello"); // should print true
 
 
 
 // 34. Check if 'booleanVar' is truthy.
-const isTruthy = Boolean(booleanVar);
-console.log("[Question #34]: ", isTruthy); // should print false
-
+if(!booleanVar) {
+    console.log("[Question #34]: ", falsye) 
+}
 
 
 // 35. Log the opposite value of 'booleanVar' to the console using the NOT operator.
-const isOpposite = !booleanVar;
-console.log("[Question #35]: ", isOpposite); // should print opposite
+
+console.log("[Question #35]: ", !booleanVar); // should print opposite
 
 
 // 36. Check if 'fruits' array contains more than 3 elements.
-console.log('[Question #36]: ', typeHere); // should print true if it does, false if it does not
-console.log( Array.isArray(typeHere) && typeHere.length > 3);
+console.log('[Question #36]: ', fruists.length>=3); // should print true if it does, false if it does not
 
 
 // 37. Create an object named 'car' with keys 'make' and 'model'.
-var car = {
-  make: 'Toyota',
-  model: 'Camry'
+const car = {
+  make: 
+ model:
 };
-
-
-// console.log('[Question #37]: ', typeHere); // should print object with above structure and keys with empty strings
-var car = {
-  make: '',
-  model: ''
-};
-
 console.log( car);
 
 
 // 38. Change the 'make' property of 'car' to 'Toyota'.
 car.make = 'Toyota';
-
-
-// console.log('[Question #38]: ', typeHere); / should print object with make key = Toyota
-car.make = 'Toyota';
-console.log( car);
+console.log('[Question #38]: ', car); // should print object with make key = Toyota
 
 
 // 39. Declare a variable named 'isRainy' and assign it a boolean value based on if 'temperature' is less than 20.
-let temperature = 18; 
-let isRainy;
-
-if (temperature < 20) {
-  isRainy = true;
-} else {
-  isRainy = false;
-}
+temperature = 18; 
+let isRainy = temperatura <20;
 
 console.log(isRainy);
 
 
 // 40. Write an if statement that checks if 'numberVar' is even.
-if (numberVar % 2 === 0) {
-    console.log( true);
+if (numberVar ) {
+    console.log( numberVar % 2 === 0);
   }
   
   // 41. Check if both 'numberVar' is less than 10 and 'temperature' is greater than 20.
-  const isBothConditionsMet = numberVar < 10 && temperature > 20;
-  console.log( isBothConditionsMet); 
+  console.log(  numberVar < 10 && temperature > 20); 
 
   
   // 42. Use the ternary operator to assign 'cold' or 'warm' to a variable 'weather' based if 'temperature' is less than 16 celsius.
@@ -310,22 +279,20 @@ if (numberVar % 2 === 0) {
 
   
   // 43. Check if 'fruits' includes 'banana'.
-  const includesBanana = fruits.includes("banana");
-  console.log( includesBanana); 
+  console.log( fruits.includes("banana")); 
 
   
   // 44. Check if the value of 'numberVar' is between 4 and 6.
-  const isBetween4And6 = numberVar > 4 && numberVar < 6;
-  console.log( isBetween4And6); 
+
+  console.log(  numberVar > 4 && numberVar < 6); 
   
   // 45. Declare a variable named 'divided' which is the result of dividing 100 by 'numberVar'.
-  const divided = 100 / numberVar;
-  console.log(divided); 
+let divided = 100 / numberVar;
+console.log(divided); 
 
   
   // 46. Check if 'stringVar' starts with the letter 'H'.
-  const startsWithH = stringVar.startsWith("H");
-  console.log( startsWithH); 
+  console.log( stringVar.startsWith("H")); 
 
   
   // 47. Declare a variable 'squared' and assign it the result of squaring 'numberVar'.
@@ -334,13 +301,11 @@ if (numberVar % 2 === 0) {
 
   
   // 48. Find out if 'stringVar' ends with the letter 'o'.
-  const endsWithO = stringVar.endsWith("o");
-  console.log(endsWithO);
+  console.log(stringVar.endsWith("o"));
   
   
   // 49. Use the remainder operator to determine if 'numberVar' is odd.
-  const isOdd = numberVar % 2 !== 0;
-  console.log( isOdd); 
+  console.log( numberVar % 2 !== 0); 
   
   
   // 50. Write an if-else statement that checks if 'temperature' is above 25, logs 'Too hot!', otherwise logs 'Just right!'.
@@ -362,7 +327,7 @@ if (numberVar % 2 === 0) {
   
   // 52. Create a constant named 'maxCount' with a value of 100.
   const maxCount = 100;
-  console.log( maxCount); 
+  console.log( 100); 
 
   
   // 53. Let 'isVisible' be a variable that holds the value true.
@@ -391,7 +356,7 @@ if (numberVar % 2 === 0) {
   // 56. Add a new property 'publishedYear' to 'book' and set its value to 1949.
   book.publishedYear = 1949;
   
-  console.log( maxCount); 
+  console.log( book); 
   
   /*
   ==========================
@@ -406,7 +371,7 @@ if (numberVar % 2 === 0) {
 
   
   // 58. Access the third element of 'planets' and store it in a variable named 'thirdPlanet'.
-  const thirdPlanet = planets[2];
+  let thirdPlanet = planets[2];
   console.log( thirdPlanet); 
   
   
@@ -494,73 +459,146 @@ if (numberVar % 2 === 0) {
   ===========================
   */
   // 70. Increment 'weight' by 1 using the appropriate operator.
-  weight++;
-  console.log( weight); 
-  
-  // 71. Halve the value of 'weight' using the /= operator.
-  weight /= 2;
-  console.log( weight); 
+weight++;
+console.log("[Question #70]: ", weight); // should print 66
 
 
-  
-  // 72. Confirm that 'city' is a type of string using the typeof operator.
-  const isCityString = typeof city === "string";
-  console.log( isCityString); 
+// 71. Halve the value of 'weight' using the /= operator.
 
-  
-  // 73. Declare an array named 'days' and add 'Monday' and 'Tuesday' to it.
-  const days = ["Monday", "Tuesday"];
-
-  
-  // 74. Remove the first element from 'planets' array.
-  planets.shift();
+console.log("[Question #71]: ", (weight /= 2)); // should print 33
 
 
-  // 75. Determine if the length of 'city' is strictly greater than 6.
-  const isCityLengthGreaterThan6 = city.length > 6;
-  console.log( isCityLengthGreaterThan6);
+// 72. Confirm that 'city' is a type of string using the typeof operator.
 
-  
-  // 76. Check if 'maxCount' is less than or equal to 105.
-  const isMaxCountLessOrEqual105 = maxCount <= 105;
-  console.log(, isMaxCountLessOrEqual105);
+console.log("[Question #72]: ", typeof city === "string"); // should print true
 
-  
-  // 77. Check if 'isVisible' is a type of boolean.
-  const isBoolean = typeof isVisible === "boolean";
-  console.log( isBoolean);
 
-  
-  // 78. Add 25 to 'circleArea' using the += assignment operator.
-  circleArea += 25;
-  console.log( circleArea);
+// 73. Declare an array named 'days' and add 'Monday' and 'Tuesday' to it.
+let days = ["Monday", "Tuesday"];
+console.log("[Question #73]: ", days);
 
-  
-  // 79. Find out if 'book' has a property named 'genre'.
-  const hasGenreProperty = "genre" in book;
-  console.log( hasGenreProperty);
 
-  
-  // 80. Check if 'days' array has exactly 2 elements.
-  const hasExactly2Elements = days.length === 2;
-  console.log( hasExactly2Elements);
+// 74. Remove the first element from 'planets' array.
+planets.shift();
+console.log("[Question #74]: ", planets);
+
+
+// 75. Determine if the length of 'city' is strictly greater than 6.
+console.log("[Question #75]: ", city.length >= 6);
+
+
+// 76. Check if 'maxCount' is less than or equal to 105.
+console.log("[Question #76]: ", maxCount <= 105);
+
+
+// 77. Check if 'isVisible' is a type of boolean.
+console.log("[Question #77]: ", typeof isVisible === "boolean");
+
+
+// 78. Add 25 to 'circleArea' using the += assignment operator.
+console.log("[Question #78]: ", (circleArea += 25));
+
+
+// 79. Find out if 'book' has a property named 'genre'.
+console.log("[Question #79]: ", "The book dont has a 'genre' property.");
+
+
+// 80. Check if 'days' array has exactly 2 elements.
+console.log("[Question #80]: ", days.length === 2);
+
+
 // 81. Using the ternary operator, check if 'isVisible' is true and assign 'visible' or 'not visible' to a variable named 'status'.
+const status = isVisible ? "Visible" : "not visible";
+console.log("[Question #81]: ", status);
+
+
 // 82. Confirm that 'planets' does not include 'Jupiter'.
+console.log("[Question #82]: ", !planets.Jupiter);
+
+
 // 83. Check if 'radius' is between 5 and 10 using logical operators.
+console.log("[Question #83]: ", radius >= 5 && radius <= 10);
+
+
 // 84. Calculate the perimeter of the circle using 'radius' (perimeter = 2πr) and store it in a variable named 'circlePerimeter'.
+let circlePerimeter = 2 * Math.PI * radius;
+console.log("[Question #84]: ", circlePerimeter);
+
+
 // 85. Check if 'city' contains the substring 'ar'.
+console.log("[Question #85]: ", city.includes("ar"));
+
+
 // 86. Declare a variable 'cubeVolume' and assign it the result of cubing 'radius' (volume = s^3).
+const cubeVolume = Math.pow(radius, 3);
+console.log("[Question #86]: ", cubeVolume);
+
+
 // 87. Determine if 'bookTitle' ends with the word '1984'.
+console.log("[Question #87]: ", bookTitle.endsWith("1984"));
+
+
 // 88. Check if the 'days' array is not empty.
+console.log("[Question #88]: ", days.length > 0);
+
+
 // 89. Add a new key-value pair 'pages' and '328' to the 'book' object.
+book.pages = "328";
+console.log("[Question #89]: ", book);
+
+
 // 90. Write an if-else statement that checks if 'circleArea' is above 150, logs 'Large Circle', otherwise logs 'Small Circle'.
+if (circleArea > 150) {
+  console.log("[Question #90]: ", "Large circle");
+} else {
+  console.log("[Question #90]: ", "Small circle");
+}
+
+
 // 91. Use the AND operator to check if 'weight' is more than 50 and less than 70.
+console.log("[Question #91]: ", weight > 50 && weight < 70);
+
+
 // 92. Declare a variable 'squareArea' and assign it the result of squaring 'radius'.
+const squareArea = radius ** 2;
+console.log("[Question #92]: ", squareArea);
+
+
 // 93. Check if 'bookTitle' starts with the word 'The'.
+console.log("[Question #93]: ", bookTitle.startsWith("The"));
+
+
 // 94. Using the appropriate method, reverse the order of elements in the 'planets' array.
+console.log("[Question #94]: ", planets.reverse());
+
+
 // 95. Convert 'weight' into a string and store it in a variable named 'weightStr'.
+console.log("[Question #95]: ");
+
+
 // 96. Compare 'weight' and 'weightStr' using the loose equality operator.
+let weightStr = weight.toString();
+console.log("[Question #96]: ", weightStr);
+
+
 // 97. Create an array named 'numbers' and fill it with numbers 1 through 5.
+console.log("[Question #97]: ", weight == weightStr);
+
+
 // 98. Find out if 'book' has a property named 'isbn'.
+const numbers = [1, 2, 3, 4, 5];
+console.log("[Question #98]: ", numbers);
+
+
 // 99. Calculate the difference between 'circlePerimeter' and 'squareArea' and store it in a variable named 'shapeDifference'.
+const shapeDifference = squareArea - circlePerimeter;
+console.log("[Question #99]: ", shapeDifference);
+
+
 // 100. Create an object named 'album' with properties 'name', 'artist', and 'releaseYear'.
+const album = {
+  name: "",
+  artist: "",
+  releaseYear: ""
+};
+console.log("[Question #100]: ", album);
